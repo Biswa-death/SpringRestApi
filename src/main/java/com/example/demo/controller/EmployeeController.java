@@ -12,7 +12,7 @@ public class EmployeeController {
 	@RequestMapping(value = "/employees", method = RequestMethod.GET)
 	@ResponseBody
 	public String getEmployees() {
-		return "Hello Spring booter";
+		return "Hello Spring Booter";
 	}
 
 }
